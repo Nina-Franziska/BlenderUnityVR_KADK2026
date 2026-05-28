@@ -213,9 +213,9 @@ MonoBehaviour:
   uiBounds:
     serializedVersion: 2
     x: 414
-    y: -492
-    width: 740
-    height: 2167
+    y: -493
+    width: 741
+    height: 2183
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   m_ActivationSlot: {fileID: 8926484042661614582}
-  mode: 0
+  mode: 1
   axes: 4
   faceRay: 1
 --- !u!114 &8926484042661614582
