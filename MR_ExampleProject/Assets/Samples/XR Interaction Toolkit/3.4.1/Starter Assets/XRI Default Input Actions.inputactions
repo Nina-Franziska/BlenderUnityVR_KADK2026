@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "XRI Default Input Actions",
     "maps": [
         {
@@ -3395,6 +3396,45 @@
                     "action": "Spawn Object",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "AnchorTrigger",
+            "id": "f56a26db-e517-4b69-9016-060e79a547d5",
+            "actions": [
+                {
+                    "name": "CallSetAnchor",
+                    "type": "Button",
+                    "id": "07aae2ed-a85c-4af4-a1b3-5633953f3f6e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3edea24d-d631-4c68-8a0d-f63c2d912ffe",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CallSetAnchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "026d07f4-c1b6-428f-b63e-863af247b62f",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CallSetAnchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
